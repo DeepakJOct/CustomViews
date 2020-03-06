@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            app:layout_scrollFlags="scroll|enterAlways|snap" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <GridView
+            android:id="@+id/gallery_album_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="?attr/actionBarSize"
+            android:paddingLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:numColumns="2"
+            android:columnWidth="172dp"
+            android:horizontalSpacing="@dimen/_5sdp"
+            android:verticalSpacing="@dimen/_5sdp"
+            android:gravity="center"
+            android:stretchMode="columnWidth"
+            android:background="#ffffff"
+            android:clipToPadding="false"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

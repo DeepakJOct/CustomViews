@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ChecksumActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:hint="Enter String to Convert"
+            android:inputType="textMultiLine"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_convert"
+            android:layout_width="match_parent"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Convert"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv_output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:padding="4dp"
+            android:textIsSelectable="true"
+            android:hint="Output will show here.."
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

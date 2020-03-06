@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CustomViews"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_change_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Change View Appearance"
+            android:shadowColor="#da2128"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            app:tint="@color/colorPrimary"
+            android:src="@drawable/ic_arrow_down"/>
+
+        <app.com.customviews.views.LovelyView
+            android:id="@+id/lv_custom_view"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="20dp"
+            app:circleColor="#ff0009"
+            app:circleLabel="CustomViewHello"
+            app:labelColor="#ffff66"/>
+
+        <app.com.customviews.views.StyledTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/_35sdp"
+            android:gravity="center"
+            app:borderCol="@color/green"
+            app:textCol="@color/black"
+            android:textSize="@dimen/s12"
+            app:text="APPLY FOR NEW PAN CARD - LINK 1"
+            app:textViewFont="public_sans_regular.ttf"
+            app:drawableBackground="@drawable/btn_rect_amazon_orange"
+            android:padding="@dimen/_8sdp"/>
+
+        <app.com.customviews.views.StyledTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:minHeight="@dimen/_35sdp"
+            android:gravity="center"
+            app:borderCol="@color/green"
+            app:textCol="@color/black"
+            android:textSize="@dimen/s12"
+            app:text="APPLY FOR NEW PAN CARD (FORM 49A) - LINK 2"
+            app:textViewFont="public_sans_regular.ttf"
+            app:drawableBackground="@drawable/btn_rect_amazon_orange"
+            android:padding="@dimen/_8sdp"/>
+
+        <app.com.customviews.views.StyledTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:minHeight="@dimen/_35sdp"
+            android:gravity="center"
+            app:borderCol="@color/green"
+            app:textCol="@color/black"
+            android:textSize="@dimen/s12"
+            app:text="REGENERATE ONLINE PAN APPLICATION (FORM 49A)"
+            app:textViewFont="public_sans_regular.ttf"
+            app:drawableBackground="@drawable/btn_rect_amazon_orange"
+            android:padding="@dimen/_8sdp"/>
+
+        <app.com.customviews.views.StyledTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:minHeight="@dimen/_35sdp"
+            android:gravity="center"
+            app:borderCol="@color/green"
+            app:textCol="@color/black"
+            android:textSize="@dimen/s12"
+            app:text="APPLY AND SIGN USING DIGITAL SIGNATURE/AADHAAR BASED E-SIGN, OR AADHAAR HOLDERS! APPLY USING E-KYC OPTION AND THIS IS FOR SIGNING SECURITY"
+            app:textViewFont="public_sans_regular.ttf"
+            app:drawableBackground="@drawable/btn_rect_amazon_orange"
+            android:padding="@dimen/_8sdp"/>
+
+        <app.com.customviews.views.StyledTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:minHeight="@dimen/_35sdp"
+            android:gravity="center"
+            app:borderCol="@color/green"
+            app:textCol="@color/black"
+            android:textSize="@dimen/s12"
+            app:text="DOWNLOAD BLANK PAN FORM 49A (PDF)"
+            app:textViewFont="public_sans_regular.ttf"
+            app:drawableBackground="@drawable/btn_rect_amazon_orange"
+            android:padding="@dimen/_8sdp"/>
+
+        <app.com.customviews.views.StyledTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:minHeight="@dimen/_35sdp"
+            android:gravity="center"
+            app:borderCol="@color/green"
+            app:textCol="@color/black"
+            android:textSize="@dimen/s12"
+            app:text="APPLY FOR CHANGE/CORRECTION IN PAN CARD DETAILS (CSF)"
+            app:textViewFont="public_sans_regular.ttf"
+            app:drawableBackground="@drawable/btn_rect_amazon_orange"
+            android:padding="@dimen/_8sdp"/>
+
+        <app.com.customviews.views.StyledTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:minHeight="@dimen/_35sdp"
+            android:gravity="center"
+            app:borderCol="@color/green"
+            app:textCol="@color/black"
+            android:textSize="@dimen/s12"
+            app:text="DOWNLOAD BLANK CHANGE REQUEST FORM (PDF)"
+            app:textViewFont="public_sans_regular.ttf"
+            app:drawableBackground="@drawable/btn_rect_amazon_orange"
+            android:padding="@dimen/_8sdp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

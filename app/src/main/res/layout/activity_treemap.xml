@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TreemapActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:padding="@dimen/_20sdp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="@dimen/_8sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/tree_map"
+            android:orientation="vertical">
+
+            <app.com.customviews.views.CustomFontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tree Map"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/blue_opacity_eight"
+                android:textSize="@dimen/_30sdp"/>
+
+            <app.com.customviews.views.CustomFontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Demonstration"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white_opacity_eight"
+                android:textSize="@dimen/_30sdp"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</RelativeLayout>

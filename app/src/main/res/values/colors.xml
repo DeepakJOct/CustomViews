@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4a5163</color>
+    <color name="colorPrimaryDark">#222939</color>
+    <color name="colorAccent">#767d91</color>
+    <color name="buttonLabel">#d3d3d3</color>
+    <color name="text_color">#ffffff</color>
+
+    <color name="light_green">#24c24e</color>
+    <color name="orange">#ff8f00</color>
+    <color name="blue">#FF64C8F7</color>
+    <color name="ash">#999999</color>
+
+    <color name="red">#da2128</color>
+    <color name="grey">#404041</color>
+    <color name="grey1">#2a2a2b</color>
+    <color name="light_rfq_grey">#f1f1f1</color>
+    <color name="light_rfq_cardview">#f4f3f3</color>
+    <color name="light_grey">#fafafa</color>
+    <color name="home_line_grey">#acacac</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_opacity">#50FFFFFF</color>
+    <color name="white_opacity_eight">#80FFFFFF</color>
+    <color name="blue_dark">#0000FF</color>
+    <color name="blue_opacity">#500000FF</color>
+    <color name="blue_opacity_eight">#800000FF</color>
+    <color name="hide">#A0000000</color>
+    <color name="dull_green">#8dce6f</color>
+    <color name="light_white">#fafafa</color>
+    <array name="array_dot_active">
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+        <item>@color/white_opacity</item>
+    </array>
+    <color name="no_text">#404041</color>
+    <color name="light_round_grey">#C8C8CA</color>
+    <color name="sms_chage_grey">#8c8c8c</color>
+    <color name="menu_color">#313132</color>
+    <color name="light_text_grey">#a8a8a8</color>
+    <color name="primary">#da2128</color>
+    <color name="accent">#da2128</color>
+    <color name="invite_friend">#337ab7</color>
+    <color name="signup">#ff8f00</color>
+
+    <!--Mulitple Image Colors-->
+    <color name="multiple_image_select_primary">#da2128</color>
+    <color name="multiple_image_select_primaryDark">#da2128</color>
+    <color name="multiple_image_select_accent">#536DFE</color>
+    <color name="multiple_image_select_primaryText">#212121</color>
+    <color name="multiple_image_select_toolbarPrimaryText">#FFFFFF</color>
+    <color name="multiple_image_select_albumTextBackground">#99FFFFFF</color>
+    <color name="multiple_image_select_imageSelectBackground">#000000</color>
+
+    <color name="offer_grey">#ebebeb</color>
+
+    <color name="offer_grey_dark">#DBDBDB</color>
+    <color name="home_back">#e8e8e8</color>
+    <color name="toolbar_grey">#f5f5f5</color>
+    <color name="search_ed">#414041</color>
+    <color name="search_ed_textcolor">#7f7f7f</color>
+    <color name="offer_time">#8a8a8a</color>
+    <color name="black">#000000</color>
+    <color name="add_to_rfp">#4d4d4e</color>
+    <color name="rfp_desc">#414041</color>
+    <color name="rfp_desc2">#9b9b9b</color>
+    <color name="rfp_address">#666666</color>
+
+    <color name="transparent">#AA000000</color>
+
+    <color name="tag_green">#2dcf58</color>
+    <color name="tag_yellow">#ff8f00</color>
+    <color name="tag_red">#da2128</color>
+    <color name="inst_grey">#c6c6c6</color>
+    <color name="inst_grey_inner">#f9fbfa</color>
+    <color name="purple">#8866aa</color>
+    <color name="outline">#eeeeee</color>
+    <color name="outline1">#c8c8c8</color>
+    <color name="search">#fff8e8</color>
+    <color name="tranparent_green">#1A2dcf58</color>
+    <color name="maintance_color">#e3e3e3</color>
+    <color name="maintance_bg_img">#f9f9f9</color>
+    <color name="credit_dialog">#fff4e6</color>
+    <color name="line">#dcdcdc</color>
+    <color name="chip_background">#BDBDBD</color>
+    <color name="chip_background_selected">#9E9E9E</color>
+    <color name="unselect_tab">#666666</color>
+    <color name="white_opc">#30FFFFFF</color>
+    <color name="yellow_border">#ff8e01</color>
+    <color name="saved_backgorud">#fef1e0</color>
+    <color name="tag_green_shadow">#e1f8e6</color>
+    <color name="light_yellow">#fff9f3</color>
+    <color name="transaction_dialog_color">#fff4e6</color>
+    <color name="transaction_dialog_stroke">#ffc77f</color>
+
+    <color name="filter_gray">#ebebeb</color>
+
+    <color name="transaction_dialog_red">#db262c</color>
+    <color name="sub_title">#404040</color>
+    <color name="home_credit_back">#ffebd3</color>
+    <color name="lable">#7d7d7d</color>
+
+
+    <color name="status_pu_expired">#8a8a8a</color>
+
+    <color name="status_complete">#01ab2e</color>
+    <color name="gray">#999999</color>
+    <color name="green">#29C232</color>
+    <color name="credit_button_white">#f5f5f5</color>
+
+    <color name="home_tab_selected">#010101</color>
+    <color name="home_tab_unselected">#191919</color>
+
+    <color name="profle_lite_grey">#d1d1d1</color>
+    <color name="offer_exp_text_color">#9a9a9a</color>
+    <color name="offer_expierd_back">#f2f2f2</color>
+    <color name="step_line">#e1e2e1</color>
+    <color name="step_text">#c4c4c4</color>
+
+    <color name="profile_circle_color">#038681</color>
+    <color name="unfilled_red">#f9b3b3</color>
+    <color name="amazon_orange">#F3CA00</color>
+    <color name="skyblue">#346beb</color>
+    <color name="github_grey">#333</color>
+    <color name="magic_brown">#A1650A</color>
+</resources>

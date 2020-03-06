@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45sdp"
+    android:padding="@dimen/_5sdp">
+
+    <app.com.customviews.views.CustomImageView
+        android:id="@+id/album_art"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <app.com.customviews.views.CustomFontTextView
+            android:id="@+id/song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/grey"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="Let the music play"/>
+
+        <app.com.customviews.views.CustomFontTextView
+            android:id="@+id/tv_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="Artist: A.R.Rahmaan"
+            android:textSize="@dimen/s11"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

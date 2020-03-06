@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.DrawableTransitionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_times"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:text="Times: 56"
+        android:textSize="@dimen/_40sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:textAlignment="textEnd"/>
+
+    <ImageView
+        android:id="@+id/animated_drawable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/animated_vectory"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/footer">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/grey"
+            android:text="start"
+            android:textColor="@color/light_white"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AndroidDrawableAnimator Demo"
+            android:textColor="@color/blue_dark"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

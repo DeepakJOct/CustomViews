@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.JobSchedulerFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_15sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network Type Required:"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"/>
+
+
+        <RadioGroup
+            android:id="@+id/rg_network_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_none"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:buttonTint="@color/github_grey"
+                android:text="None" />
+
+            <RadioButton
+                android:id="@+id/rb_any"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:buttonTint="@color/github_grey"
+                android:text="Any" />
+
+            <RadioButton
+                android:id="@+id/rb_wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:buttonTint="@color/github_grey"
+                android:text="Wifi" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Requires:"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/sw_idle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Device Idle"
+                android:switchPadding="@dimen/_5sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/_4sdp"/>
+
+            <Switch
+                android:id="@+id/sw_charging"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Device Charging"
+                android:switchPadding="@dimen/_5sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/_4sdp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_deadline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Override Deadline:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Schedule Job"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/_4sdp"/>
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel Jobs"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/_4sdp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

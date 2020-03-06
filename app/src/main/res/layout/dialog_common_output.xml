@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:layout_margin="@dimen/_5sdp">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/d10"
+        android:layout_marginRight="@dimen/d10"
+        android:layout_marginBottom="-10dp"
+        android:background="@color/white"
+        card_view:cardCornerRadius="@dimen/_4sdp"
+        card_view:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/toolbar_grey"
+                android:gravity="center_vertical">
+
+                <app.com.customviews.views.AutofitTextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_9sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/close_btn"
+                    android:layout_toRightOf="@+id/close_btn"
+                    android:maxLines="1"
+                    android:text="Cart"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_13sdp"
+                    app:minTextSize="@dimen/_12sdp" />
+
+                <app.com.customviews.views.CustomImageView
+                    android:id="@+id/close_btn"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:src="@drawable/ic_back"
+                    android:visibility="gone" />
+
+                <app.com.customviews.views.CustomImageView
+                    android:id="@+id/imv_cross"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/d10"
+                    android:layout_marginRight="@dimen/d10"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="@dimen/_4sdp"
+                    android:visibility="gone"
+                    android:src="@drawable/close" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/outline" />
+
+            <app.com.customviews.views.CustomFontTextView
+                android:id="@+id/tv_final_message_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:autoLink="all"
+                android:text="Output Message goes here"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp"
+                app:minTextSize="@dimen/_10sdp" />
+
+            <app.com.customviews.views.CustomFontTextView
+                android:id="@+id/tv_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="?android:selectableItemBackground"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/_2sdp"
+                android:padding="@dimen/d10"
+                android:text="OK"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_13sdp"
+                android:visibility="visible" />
+
+            <app.com.customviews.views.CustomFontTextView
+                android:id="@+id/tv_got_it"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:foreground="?android:selectableItemBackground"
+                android:gravity="end"
+                android:padding="@dimen/_6sdp"
+                android:text="GOT IT"
+                android:textAllCaps="true"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
